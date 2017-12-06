@@ -76,29 +76,17 @@ public class YoRPG
     //instantiate the player's character
     try {
 	System.out.println( "\nChoose a class:" );
-<<<<<<< HEAD
-	System.out.println( "\t1: Mage\n\t2: Warrior\n\t3: Archer" );
-=======
 	System.out.print( "\t1: Mage\n\t2: Warrior\n\t3: Archer\nSelection: " );
->>>>>>> 6180efe140c6cb4adbf463d909b24c1419691975
 	i = Integer.parseInt( in.readLine() );
     }
     catch ( IOException e ) { }
 
     if ( i == 1 )
-<<<<<<< HEAD
-	pat = new Mage();
-    else if (i == 2)
-	pat = new Warrior();
-    else
-	pat = new Archer();
-=======
 	pat = new Mage(name);
     else if (i == 2)
 	pat = new Warrior(name);
     else
 	pat = new Archer(name);
->>>>>>> 6180efe140c6cb4adbf463d909b24c1419691975
 
   }//end newGame()
 
