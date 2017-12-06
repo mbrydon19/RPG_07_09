@@ -1,13 +1,13 @@
 public class Warrior extends Protagonist {
-	
+
     public Warrior() {
 	super(name);
-	
-
+}
     public Warrior(String pName) {
 	super(pName);
         defense = 30;
     }
+   
     public String toString() {
 	return "this Warrior's stats: "
 	    + System.lineSeparator()
