@@ -1,10 +1,6 @@
-public class Monster extends Character{
-
+public class Giant extends Monster {
     public Monster() {
-	HP = 150;
+	HP = 200;
 	strength = 30;
 	defense = 20;
 	attackRating = 1.0;
-    }
-   
-}
