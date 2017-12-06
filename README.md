@@ -7,11 +7,11 @@
 3. Archer
 
 ##### Mage
-A master of the elements, the Mage has the highest attack rating
+A master of the elements, the Mage has the highest attack rating.
 ##### Warrior
-Protected by armor, the Warrior has the highest defense stat
+Protected by armor, the Warrior has the highest defense stat.
 ##### Archer
-Wielding ranged weapons, the Archer the highest strength stat
+Wielding ranged weapons, the Archer the highest strength stat.
 
 # Monsters
 ### Types
@@ -20,10 +20,10 @@ Wielding ranged weapons, the Archer the highest strength stat
 3. Giant
 
 ##### Goblin
-Goblins are small but vicious and have the highest attack rating
+Goblins are small but vicious and have the highest attack rating.
 
 ##### Orc
-The Orc's brute strength maximizes its strength stat
+The Orc's brute strength maximizes its strength stat.
 
 ##### Giant
-Giants have an incredible amount of HP. It takes a lot of damage to take them down
+Giants have an incredible amount of HP. It takes a lot of damage to take them down.
