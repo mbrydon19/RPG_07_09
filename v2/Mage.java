@@ -1,6 +1,6 @@
 public class Mage extends Protagonist {
-    public Mage() {
-	super(name);
+    public Mage(String pName) {
+	super(pName);
         attackRating = 1.5;
     }
     public String toString() {
