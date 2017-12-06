@@ -2,7 +2,7 @@ public class Warrior extends Protagonist {
 	
     public Warrior() {
 	super(name);
-    }
+	
 
     public Warrior(String pName) {
 	super(pName);
