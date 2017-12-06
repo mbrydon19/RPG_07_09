@@ -3,4 +3,9 @@ public class Orc extends Monster{
 	super();
 	strength = 40;
     }
-}
+
+    public String toString() {
+	return "this Orc's stats: "
+	    + System.lineSeparator()
+	    + super.toString();
+    }
