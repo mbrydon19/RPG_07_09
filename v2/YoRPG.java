@@ -73,7 +73,22 @@ public class YoRPG
     } catch ( IOException e ) { }
 
     //instantiate the player's character
-    pat = new Protagonist( name );
+    try {
+	System.out.println( "\nChoose a class:" );
+	System.out.println( "\t1: Mage\n\t2: Warrior\n\t3: Archer" );
+	i = Integer.parseInt( in.readLine() );
+    }
+    catch ( IOException e ) { }
+
+    if ( i == 1 )
+	pat = new Mage();
+    else if (i == 2)
+	pat = new Warrior();
+    else
+	pat = new Archer();
+    //instantiate the player's character
+
+    //pat = new Protagonist( name );
 
   }//end newGame()
 
