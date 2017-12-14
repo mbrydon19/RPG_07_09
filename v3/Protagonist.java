@@ -29,4 +29,13 @@ public abstract class Protagonist extends Character {
     
     public abstract String toString();
 
+    // public static void main(String[] args) {
+    // 	Protagonist p0 = new Protagonist();
+
+    // error
+    // Protagonist.java:33: error: Protagonist is abstract; cannot be instantiated
+    //     Protagonist p0 = new Protagonist();
+    
+    // }
+
 }
