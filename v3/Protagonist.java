@@ -1,4 +1,4 @@
-public class Protagonist extends Character {
+public abstract class Protagonist extends Character {
 
     private String name;
 
@@ -23,5 +23,10 @@ public class Protagonist extends Character {
 	attackRating = 1.0;
 	defense = 20;
     }
+
+    // error displayed when class header is not changed:
+    // 'Protagonist is not abstract and does not override abstract method toString() in Protagonist'
+    
+    public abstract String toString();
 
 }
