@@ -4,9 +4,14 @@ public class Archer extends Protagonist {
 	super(pName);
         strength = 60;
     }
+
     public String toString() {
-	return "this Archer's stats: "
-	    + System.lineSeparator()
-	    + super.toString();
+    	return "this Archer's stats: "
+    	    + System.lineSeparator()
+    	    + super.toString();
     }
+
+    //error toString() was not overridden
+    // Archer.java:1: error: Archer is not abstract and does not override abstract method toString() in Protagonist
+
 }
