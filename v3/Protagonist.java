@@ -14,15 +14,8 @@ public abstract class Protagonist extends Character {
 	return name;
     }
 
-    public void specialize() {
-	attackRating *= 2;
-	defense /= 2;
-    }
-
-    public void normalize() {
-	attackRating = 1.0;
-	defense = 20;
-    }
+    public abstract void specialize();
+    public abstract void normalize();
 
     // error displayed when class header is not changed:
     // 'Protagonist is not abstract and does not override abstract method toString() in Protagonist'

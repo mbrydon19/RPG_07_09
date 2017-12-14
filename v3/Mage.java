@@ -7,6 +7,19 @@ public class Mage extends Protagonist {
     public String toString() {
 	return "this Mage's stats: "
 	    + System.lineSeparator()
-	    + super.toString();
+	    + "HP: " + HP
+	    + " strength: " + strength
+	    + " defense: " + defense
+	    + " attack rating: " + attackRating;
+    }
+
+    public void specialize() {
+	attackRating *= 2;
+	defense /= 2;
+    }
+
+    public void normalize() {
+	attackRating = 1.0;
+	defense = 20;
     }
 }
